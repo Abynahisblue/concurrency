@@ -1,7 +1,7 @@
 package org.webapp;
 
 public class Multithreading {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         Runnable task1 = () -> {
             for (int i = 0; i < 5; i++) {
                 System.out.println("Task 1 - Count: " + i);
